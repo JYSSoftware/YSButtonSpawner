@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1E3B2B1C7B95E9007A6FEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E3B2A1C7B95E9007A6FEA /* main.m */; };
+		8E1E3B2E1C7B95E9007A6FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E3B2D1C7B95E9007A6FEA /* AppDelegate.m */; };
+		8E1E3B341C7B95E9007A6FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1E3B321C7B95E9007A6FEA /* Main.storyboard */; };
+		8E1E3B361C7B95E9007A6FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1E3B351C7B95E9007A6FEA /* Assets.xcassets */; };
+		8E1E3B391C7B95E9007A6FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1E3B371C7B95E9007A6FEA /* LaunchScreen.storyboard */; };
+		8E1E3B441C7B95E9007A6FEA /* YSButtonSpawnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E3B431C7B95E9007A6FEA /* YSButtonSpawnerTests.m */; };
+		8E1E3B4F1C7B95E9007A6FEA /* YSButtonSpawnerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E3B4E1C7B95E9007A6FEA /* YSButtonSpawnerUITests.m */; };
+		8E1E3B5F1C7B9A7B007A6FEA /* YSSpawner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E3B5E1C7B9A7B007A6FEA /* YSSpawner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E1E3B401C7B95E9007A6FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1E3B1E1C7B95E9007A6FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1E3B251C7B95E9007A6FEA;
+			remoteInfo = YSButtonSpawner;
+		};
+		8E1E3B4B1C7B95E9007A6FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E1E3B1E1C7B95E9007A6FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1E3B251C7B95E9007A6FEA;
+			remoteInfo = YSButtonSpawner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E1E3B261C7B95E9007A6FEA /* YSButtonSpawner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSButtonSpawner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1E3B2A1C7B95E9007A6FEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8E1E3B2C1C7B95E9007A6FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8E1E3B2D1C7B95E9007A6FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8E1E3B331C7B95E9007A6FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E1E3B351C7B95E9007A6FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1E3B381C7B95E9007A6FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E1E3B3A1C7B95E9007A6FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1E3B3F1C7B95E9007A6FEA /* YSButtonSpawnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSButtonSpawnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1E3B431C7B95E9007A6FEA /* YSButtonSpawnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSButtonSpawnerTests.m; sourceTree = "<group>"; };
+		8E1E3B451C7B95E9007A6FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1E3B4A1C7B95E9007A6FEA /* YSButtonSpawnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSButtonSpawnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1E3B4E1C7B95E9007A6FEA /* YSButtonSpawnerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSButtonSpawnerUITests.m; sourceTree = "<group>"; };
+		8E1E3B501C7B95E9007A6FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1E3B5D1C7B9A7B007A6FEA /* YSSpawner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSSpawner.h; sourceTree = "<group>"; };
+		8E1E3B5E1C7B9A7B007A6FEA /* YSSpawner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSSpawner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E1E3B231C7B95E9007A6FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1E3B3C1C7B95E9007A6FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1E3B471C7B95E9007A6FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E1E3B1D1C7B95E9007A6FEA = {
+			isa = PBXGroup;
+			children = (
+				8E1E3B281C7B95E9007A6FEA /* YSButtonSpawner */,
+				8E1E3B421C7B95E9007A6FEA /* YSButtonSpawnerTests */,
+				8E1E3B4D1C7B95E9007A6FEA /* YSButtonSpawnerUITests */,
+				8E1E3B271C7B95E9007A6FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E1E3B271C7B95E9007A6FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E3B261C7B95E9007A6FEA /* YSButtonSpawner.app */,
+				8E1E3B3F1C7B95E9007A6FEA /* YSButtonSpawnerTests.xctest */,
+				8E1E3B4A1C7B95E9007A6FEA /* YSButtonSpawnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1E3B281C7B95E9007A6FEA /* YSButtonSpawner */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E3B2C1C7B95E9007A6FEA /* AppDelegate.h */,
+				8E1E3B2D1C7B95E9007A6FEA /* AppDelegate.m */,
+				8E1E3B5D1C7B9A7B007A6FEA /* YSSpawner.h */,
+				8E1E3B5E1C7B9A7B007A6FEA /* YSSpawner.m */,
+				8E1E3B321C7B95E9007A6FEA /* Main.storyboard */,
+				8E1E3B351C7B95E9007A6FEA /* Assets.xcassets */,
+				8E1E3B371C7B95E9007A6FEA /* LaunchScreen.storyboard */,
+				8E1E3B3A1C7B95E9007A6FEA /* Info.plist */,
+				8E1E3B291C7B95E9007A6FEA /* Supporting Files */,
+			);
+			path = YSButtonSpawner;
+			sourceTree = "<group>";
+		};
+		8E1E3B291C7B95E9007A6FEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E3B2A1C7B95E9007A6FEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E1E3B421C7B95E9007A6FEA /* YSButtonSpawnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E3B431C7B95E9007A6FEA /* YSButtonSpawnerTests.m */,
+				8E1E3B451C7B95E9007A6FEA /* Info.plist */,
+			);
+			path = YSButtonSpawnerTests;
+			sourceTree = "<group>";
+		};
+		8E1E3B4D1C7B95E9007A6FEA /* YSButtonSpawnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E1E3B4E1C7B95E9007A6FEA /* YSButtonSpawnerUITests.m */,
+				8E1E3B501C7B95E9007A6FEA /* Info.plist */,
+			);
+			path = YSButtonSpawnerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1E3B251C7B95E9007A6FEA /* YSButtonSpawner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1E3B531C7B95E9007A6FEA /* Build configuration list for PBXNativeTarget "YSButtonSpawner" */;
+			buildPhases = (
+				8E1E3B221C7B95E9007A6FEA /* Sources */,
+				8E1E3B231C7B95E9007A6FEA /* Frameworks */,
+				8E1E3B241C7B95E9007A6FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSButtonSpawner;
+			productName = YSButtonSpawner;
+			productReference = 8E1E3B261C7B95E9007A6FEA /* YSButtonSpawner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E1E3B3E1C7B95E9007A6FEA /* YSButtonSpawnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1E3B561C7B95E9007A6FEA /* Build configuration list for PBXNativeTarget "YSButtonSpawnerTests" */;
+			buildPhases = (
+				8E1E3B3B1C7B95E9007A6FEA /* Sources */,
+				8E1E3B3C1C7B95E9007A6FEA /* Frameworks */,
+				8E1E3B3D1C7B95E9007A6FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1E3B411C7B95E9007A6FEA /* PBXTargetDependency */,
+			);
+			name = YSButtonSpawnerTests;
+			productName = YSButtonSpawnerTests;
+			productReference = 8E1E3B3F1C7B95E9007A6FEA /* YSButtonSpawnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E1E3B491C7B95E9007A6FEA /* YSButtonSpawnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1E3B591C7B95E9007A6FEA /* Build configuration list for PBXNativeTarget "YSButtonSpawnerUITests" */;
+			buildPhases = (
+				8E1E3B461C7B95E9007A6FEA /* Sources */,
+				8E1E3B471C7B95E9007A6FEA /* Frameworks */,
+				8E1E3B481C7B95E9007A6FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1E3B4C1C7B95E9007A6FEA /* PBXTargetDependency */,
+			);
+			name = YSButtonSpawnerUITests;
+			productName = YSButtonSpawnerUITests;
+			productReference = 8E1E3B4A1C7B95E9007A6FEA /* YSButtonSpawnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E1E3B1E1C7B95E9007A6FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JYS1004;
+				TargetAttributes = {
+					8E1E3B251C7B95E9007A6FEA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S56UNLSZF8;
+					};
+					8E1E3B3E1C7B95E9007A6FEA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S56UNLSZF8;
+						TestTargetID = 8E1E3B251C7B95E9007A6FEA;
+					};
+					8E1E3B491C7B95E9007A6FEA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = S56UNLSZF8;
+						TestTargetID = 8E1E3B251C7B95E9007A6FEA;
+					};
+				};
+			};
+			buildConfigurationList = 8E1E3B211C7B95E9007A6FEA /* Build configuration list for PBXProject "YSButtonSpawner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E1E3B1D1C7B95E9007A6FEA;
+			productRefGroup = 8E1E3B271C7B95E9007A6FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1E3B251C7B95E9007A6FEA /* YSButtonSpawner */,
+				8E1E3B3E1C7B95E9007A6FEA /* YSButtonSpawnerTests */,
+				8E1E3B491C7B95E9007A6FEA /* YSButtonSpawnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E1E3B241C7B95E9007A6FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1E3B391C7B95E9007A6FEA /* LaunchScreen.storyboard in Resources */,
+				8E1E3B361C7B95E9007A6FEA /* Assets.xcassets in Resources */,
+				8E1E3B341C7B95E9007A6FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1E3B3D1C7B95E9007A6FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1E3B481C7B95E9007A6FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1E3B221C7B95E9007A6FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1E3B5F1C7B9A7B007A6FEA /* YSSpawner.m in Sources */,
+				8E1E3B2E1C7B95E9007A6FEA /* AppDelegate.m in Sources */,
+				8E1E3B2B1C7B95E9007A6FEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1E3B3B1C7B95E9007A6FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1E3B441C7B95E9007A6FEA /* YSButtonSpawnerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1E3B461C7B95E9007A6FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1E3B4F1C7B95E9007A6FEA /* YSButtonSpawnerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E1E3B411C7B95E9007A6FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1E3B251C7B95E9007A6FEA /* YSButtonSpawner */;
+			targetProxy = 8E1E3B401C7B95E9007A6FEA /* PBXContainerItemProxy */;
+		};
+		8E1E3B4C1C7B95E9007A6FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1E3B251C7B95E9007A6FEA /* YSButtonSpawner */;
+			targetProxy = 8E1E3B4B1C7B95E9007A6FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E1E3B321C7B95E9007A6FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1E3B331C7B95E9007A6FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E1E3B371C7B95E9007A6FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E1E3B381C7B95E9007A6FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E1E3B511C7B95E9007A6FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8E1E3B521C7B95E9007A6FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E1E3B541C7B95E9007A6FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSButtonSpawner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYS1004.YSButtonSpawner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E1E3B551C7B95E9007A6FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YSButtonSpawner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYS1004.YSButtonSpawner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E1E3B571C7B95E9007A6FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YSButtonSpawnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYS1004.YSButtonSpawnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSButtonSpawner.app/YSButtonSpawner";
+			};
+			name = Debug;
+		};
+		8E1E3B581C7B95E9007A6FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YSButtonSpawnerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYS1004.YSButtonSpawnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSButtonSpawner.app/YSButtonSpawner";
+			};
+			name = Release;
+		};
+		8E1E3B5A1C7B95E9007A6FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YSButtonSpawnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYS1004.YSButtonSpawnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YSButtonSpawner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8E1E3B5B1C7B95E9007A6FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YSButtonSpawnerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JYS1004.YSButtonSpawnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YSButtonSpawner;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E1E3B211C7B95E9007A6FEA /* Build configuration list for PBXProject "YSButtonSpawner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1E3B511C7B95E9007A6FEA /* Debug */,
+				8E1E3B521C7B95E9007A6FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1E3B531C7B95E9007A6FEA /* Build configuration list for PBXNativeTarget "YSButtonSpawner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1E3B541C7B95E9007A6FEA /* Debug */,
+				8E1E3B551C7B95E9007A6FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E1E3B561C7B95E9007A6FEA /* Build configuration list for PBXNativeTarget "YSButtonSpawnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1E3B571C7B95E9007A6FEA /* Debug */,
+				8E1E3B581C7B95E9007A6FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E1E3B591C7B95E9007A6FEA /* Build configuration list for PBXNativeTarget "YSButtonSpawnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1E3B5A1C7B95E9007A6FEA /* Debug */,
+				8E1E3B5B1C7B95E9007A6FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E1E3B1E1C7B95E9007A6FEA /* Project object */;
+}
