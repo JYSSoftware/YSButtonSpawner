@@ -2,7 +2,7 @@
 //  YSSpawner.m
 //  YSButtonSpawner
 //
-//  Copyright (c) 2016 Yongsuk Jin ( https://github.com/JYS1004 ).
+//  Copyright (c) 2016 Yongsuk Jin ( https://github.com/JYSSoftware ).
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
